@@ -128,7 +128,7 @@ declare class Canvas {
    * Draw the game canvas.
    * @returns A Promise which resolves once the Canvas is fully drawn
    */
-  draw(scene: Scene): Promise<this>;
+  draw(scene?: Scene): Promise<this>;
 
   /* -------------------------------------------- */
 
