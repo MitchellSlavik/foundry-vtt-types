@@ -5,7 +5,7 @@ declare interface SceneControl {
   name: string;
   title: string;
   tools: SceneControlTool[];
-  visible: boolean;
+  visible?: boolean;
 }
 
 declare interface SceneControlTool {
